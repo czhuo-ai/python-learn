@@ -1,0 +1,22 @@
+# Python 运行时产物：每次运行自动生成，不需要进仓库
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器/IDE 的个人设置
+.vscode/
+.idea/
+
+# 程序跑出来的数据文件（跟着代码重新生成，不进仓库）
+notes.txt
+expenses.csv
+profile.json
+run.log
+*.log
+*.db
+*.sqlite
+
+# 密钥、环境变量这类绝对不要提交
+.env
+*.key
+credentials.json
